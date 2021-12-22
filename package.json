@@ -1,0 +1,17 @@
+{
+  "name": "colourful-node",
+  "description": "extremely simple, almost dependencies free, easy to use colourful terminal printer",
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "colourful terminal"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-stage-0": "^7.8.3",
+    "webpack-cli": "^4.9.1"
+  }
+}
