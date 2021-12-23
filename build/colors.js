@@ -6,6 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const mapColors_1 = __importDefault(require("./mapColors"));
 const printColor = (colorName, itemToConsole) => {
     const colorNumber = (0, mapColors_1.default)(colorName.toLowerCase());
-    return console.log(`\x1b[${colorNumber}`, itemToConsole, '\x1b[0m');
+    return console.log('\u001b[' + colorNumber + 'm' + itemToConsole + '\x1b[0m');
 };
 exports.default = printColor;
